@@ -1,0 +1,52 @@
+
+#mainH1{
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: Oswalkd53;
+  src:url(../fonts/Oswalk_v53.woff2);
+}
+
+/*Bold Script*/
+@font-face {
+  font-family: AmandaBlack;
+  src:url(../fonts/Ananda-Black.ttf);
+}
+
+/*Lite Script*/
+@font-face {
+  font-family: Cherolina;
+  src:url(../fonts/Cherolina.ttf);
+}
+
+
+h1 {
+  font-family: Oswalkd53;
+  color:#1a2674;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Oswalkd53;
+  color: #1a2674;
+  text-transform: uppercase;
+}
+
+
+h3 {
+  color: #d31145;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#logo_div{
+  text-align: right;
+  max-width: 200px;
+  right: 5px;
+  height:100px;
+}
