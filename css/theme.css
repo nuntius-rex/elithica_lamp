@@ -46,7 +46,7 @@ p {
 
 #logo_div{
   text-align: right;
-  max-width: 200px;
+  /*max-width: 200px;*/
   right: 5px;
-  height:100px;
+  /*height:100px;*/
 }
