@@ -1,21 +1,21 @@
-//import
-
+//Use this an a template to build your own  modules
 export default{
   template:`
-
-    <h1 id="mod_title">Template</h1>
-
-    <p>Use this template to build more modules in your SPA.</p>
+    <div class="column">
+        <h1>TITLE</h1>
+        <p>Sub-text</p>
+    </div>
 
     <style scoped>
-      /*Style your module here*/
-      #mod_title{
-        color:red;
-      }
-    </style>
 
+    </style>
   `,
   init: function() {
-    console.log("Module loaded!");
+    console.log("Template Init");
+    someFunction();
   }
+}
+
+function someFunction(){
+  console.log("secondary function called");
 }
