@@ -9,6 +9,6 @@ $(function() {
     </div>
 
     `;
-    
+
     rootDiv.innerHTML=msg;
 });

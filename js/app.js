@@ -12,8 +12,11 @@ const mainMenu = menuObj.default;
 let routesFile=`../js/config/routes.js?v=${date}`;
 let routesObj = await import(routesFile);
 const rootDir = routesObj.rootDir;
+//console.log(rootDir);
 const rootLocal = routesObj.rootLocal;
+//console.log(rootLocal);
 const routes = routesObj.routes;
+
 
 $(() => {
 
