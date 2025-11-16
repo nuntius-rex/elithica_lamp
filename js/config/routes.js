@@ -9,7 +9,7 @@ export default{
 export const rootDir="/";
 
 //Local Directory:
-export const rootLocal="/";
+export const rootLocal="/"; //Example:  /elithica/
 
 //Define your application routes here.
 //This seection associated your modules to a given path.
